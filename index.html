@@ -1,1 +1,182 @@
-<!DOCTYPE html><html><head><title>Brandora - Home</title></head><body><h1>Welcome to Brandora</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandora | Digital Boldness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #222;
+      background: #f9f9fb;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(120deg, #2f2fa2, #4c3de6);
+      color: white;
+      text-align: center;
+      padding: 100px 20px 60px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+    nav {
+      background: white;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #2f2fa2;
+      font-weight: bold;
+      margin: 0 20px;
+      text-decoration: none;
+    }
+    .section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2.2rem;
+      color: #2f2fa2;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .hero-image {
+      max-width: 600px;
+      display: block;
+      margin: 40px auto 0;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #4c3de6;
+    }
+    .cta {
+      background: #4c3de6;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 16px;
+      margin-top: 60px;
+    }
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+    .cta a {
+      background: white;
+      color: #4c3de6;
+      padding: 14px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: #f2f2ff;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#cases">Success</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <header>
+    <h1>Brandora</h1>
+    <p>Bold Digital Marketing That Leads the Gulf</p>
+    <img src="https://brandorastudio.s3.amazonaws.com/hero-placeholder.jpg" alt="Digital marketing illustration" class="hero-image"/>
+  </header>
+  <section class="section" id="about">
+    <h2 class="section-title">Who We Are</h2>
+    <div class="grid">
+      <div class="card" data-aos="fade-up">
+        <h3>Creative Team</h3>
+        <p>We're a Dubai-based team driven by creativity, technology, and results.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Our Vision</h3>
+        <p>To lead the Gulf market with bold digital strategies and world-class branding.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="services">
+    <h2 class="section-title">What We Offer</h2>
+    <div class="grid">
+      <div class="card" data-aos="zoom-in">
+        <h3>Brand Identity</h3>
+        <p>From logo to full brand systems, we build bold and memorable brands.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Social Growth</h3>
+        <p>Community building, influencer marketing, and viral content creation.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Ads & Funnels</h3>
+        <p>Targeted Google and Meta Ads, built for ROI and scale.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="300">
+        <h3>Web & SEO</h3>
+        <p>SEO-optimized responsive websites designed to convert.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="cases">
+    <h2 class="section-title">Case Studies</h2>
+    <div class="grid">
+      <div class="card" data-aos="fade-right">
+        <h3>BeautyCo</h3>
+        <p>Achieved 250% growth in 3 months on Instagram with bold visual storytelling.</p>
+      </div>
+      <div class="card" data-aos="fade-left">
+        <h3>RealEstate ME</h3>
+        <p>Cut CPL by 42% through funnel optimization and strategic PPC.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section cta" id="contact">
+    <h2>Ready to grow with us?</h2>
+    <a href="#">Let’s Talk</a>
+  </section>
+  <footer>
+    &copy; 2025 Brandora — All rights reserved.
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000 });</script>
+</body>
+</html>
